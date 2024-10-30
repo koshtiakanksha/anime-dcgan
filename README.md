@@ -8,7 +8,6 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 - [Model Architecture](#model-architecture)
 - [Training Process](#training-process)
 - [Results](#results)
-- [How to Run](#how-to-run)
 - [References](#references)
 
 ## Overview
@@ -21,7 +20,7 @@ The goal of this project is to use a GAN (Generative Adversarial Network) to gen
 - Visualization of generated images
 
 ## Dataset
-We used a dataset of anime character faces, which can be downloaded from [Anime Faces Dataset](https://github.com/Mckinsey666/Anime-Face-Dataset) (or any other source you used). The images are preprocessed to a size of 64x64 pixels and normalized for training.
+We used a dataset of anime character faces, which can be downloaded from [Anime Faces Dataset](https://www.kaggle.com/datasets/splcher/animefacedataset) (or any other source you used). The images are preprocessed to a size of 64x64 pixels and normalized for training.
 
 ## Model Architecture
 This project uses a Deep Convolutional GAN (DCGAN) architecture, which consists of:
@@ -47,6 +46,6 @@ Once training completes, the Generator creates high-quality anime face images. B
 ## References
 - [DCGAN Paper](https://arxiv.org/abs/1511.06434)
 - [PyTorch DCGAN Tutorial](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
-- [Anime Faces Dataset on GitHub](https://github.com/Mckinsey666/Anime-Face-Dataset)
+- [Link to the dataset](https://www.kaggle.com/datasets/splcher/animefacedataset)
 
 ---
